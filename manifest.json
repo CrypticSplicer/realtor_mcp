@@ -1,0 +1,26 @@
+{
+  "dxt_version": "0.1",
+  "name": "realtor_mcp",
+  "version": "1.0.0",
+  "description": "An MCP to help you through your real estate journey.",
+  "author": {
+    "name": "Keith Frazer"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "dist/server.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/server.js"],
+      "env": {}
+    }
+  },
+  "tools": [
+    {
+      "name": "property-search",
+      "description": "Find properties via hybrid semantic and structured search."
+    }
+  ],
+  "keywords": ["real estate", "property", "home", "apartments"],
+  "license": "MIT"
+}

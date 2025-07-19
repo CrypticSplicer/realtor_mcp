@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(npm install:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run:*)",
+      "Bash(npm test)",
+      "Bash(git clone:*)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
